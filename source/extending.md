@@ -4,7 +4,7 @@ title: "JSON API: Extending"
 
 # JSON API: Extending
 
-See also 
+See also:
 
 - [Reading](/)
 - [Writing](/write)

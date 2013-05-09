@@ -4,7 +4,7 @@ title: JSON API
 
 # JSON API
 
-See also: 
+See also:
 
 - [Writing](/write)
 - [Extending](/extending)
@@ -18,10 +18,10 @@ aware that this specification is not stable. It is currently missing
 some details about the `meta` attribute and could be more precise about
 details of working with relationships.
 
-Work on this specification is being done at its 
-[GitHub repository](https://github.com/json-api/json-api). Please feel 
-free to help flesh it out or, if you try to write an implementation, to 
-tell us where things were ambiguous. The best way to do so is to 
+Work on this specification is being done at its
+[GitHub repository](https://github.com/json-api/json-api). Please feel
+free to help flesh it out or, if you try to write an implementation, to
+tell us where things were ambiguous. The best way to do so is to
 [file an Issue](https://github.com/json-api/json-api/issues).
 
 ## Editors
@@ -34,7 +34,7 @@ There are two primary editors of this specification:
 > Perhaps most significant to the Web, however, is that the separation [between
 > clients and servers] allows the components to evolve independently, thus
 > supporting the Internet-scale requirement of multiple organizational domains.
-> 
+>
 > - Roy Fielding, "Architectural Styles and the Design of Network-based
 > Software Architectures", Chapter 5.
 
@@ -89,7 +89,7 @@ attributes section and should not be used as attribute names.
 The top-level of a JSON API document **MAY** have the following keys:
 
 * `meta`: meta-information about a resource, such as pagination
-* Other resource names (`posts`, `comments`, `people`, etc.) 
+* Other resource names (`posts`, `comments`, `people`, etc.)
 
 ### Singular Resources
 
@@ -107,7 +107,7 @@ wrapped inside an array:
 This simplifies processing, as you can know that a resource key will always be
 a list.
 
-The document **MUST** contain an `id` key. 
+The document **MUST** contain an `id` key.
 
 ### Resource Collections
 
@@ -280,7 +280,7 @@ wrapped inside an array:
 This simplifies processing, as you can know that a resource key will always be
 a list.
 
-The document **MAY** contain an `id` key. 
+The document **MAY** contain an `id` key.
 
 ### Resource Collections
 

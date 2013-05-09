@@ -4,7 +4,7 @@ title: JSON API Updating
 
 # JSON API Updating
 
-See also: 
+See also:
 
 - [Reading](/)
 - [Extending](/extending)
@@ -98,7 +98,7 @@ Content-Type: application/json
 If the server requests client-generated IDs, the client **MUST** include
 an `id` key in its `POST` request, and the value of the `id` key
 **MUST** be a properly generated and formatted *UUID* provided as a JSON
-string. 
+string.
 
 ```text
 POST /photos

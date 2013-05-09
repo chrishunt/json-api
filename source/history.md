@@ -4,7 +4,7 @@ title: "JSON API: History"
 
 # JSON API: History
 
-See also 
+See also:
 
 - [Reading](/)
 - [Writing](/write)
@@ -56,7 +56,7 @@ The goals of the media type is to balance:
   including the generally used relationship types
 * Similarity to existing server-side framework practices (and human
   readability for debugging)
-* Ease of implementation on the server side 
+* Ease of implementation on the server side
 * Ease of implementation on the client side
 
 This media type is still a work in progress, and we are extremely open to
